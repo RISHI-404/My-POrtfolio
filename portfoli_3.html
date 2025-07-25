@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rishyendra sai Godavarthi - 3D Portfolio</title>
+    <!-- Link to the external stylesheet -->
+    <link rel="stylesheet" href="portfolio_3.css" />
+  </head>
+  <body>
+    <!-- 3D Canvas -->
+    <canvas id="webgl-canvas"></canvas>
+
+    <!-- Loader -->
+    <div id="loader">
+      <p>RISHYENDRA SAI GODAVARTHI</p>
+      <div id="loader-bar-container">
+        <div id="loader-bar"></div>
+      </div>
+    </div>
+
+    <!-- UI Elements -->
+    <div class="ui-container">
+      <header class="header">
+        <div class="logo">RG</div>
+        <nav class="navigation">
+          <div class="nav-item" data-target="summary">Summary</div>
+          <div class="nav-item" data-target="experience">Experience</div>
+          <div class="nav-item" data-target="technologies">Technologies</div>
+          <div class="nav-item" data-target="education">Education</div>
+          <div class="nav-item" data-target="certificates">Certificates</div>
+        </nav>
+      </header>
+
+      <div class="social-links">
+        <!-- Replace with your actual links -->
+        <a href="mailto:drishi5858569@gmail.com" target="_blank" title="Email"
+          >&#9993;</a
+        >
+        <a
+          href="https://www.linkedin.com/in/rishyendra-sai-godavarthi-a32689276/"
+          target="_blank"
+          title="LinkedIn"
+          >&#128188;</a
+        >
+        <a href="#" target="_blank" title="GitHub">&#128187;</a>
+      </div>
+    </div>
+
+    <!-- Content Panels -->
+    <div id="summary-panel" class="content-panel">
+      <span class="close-btn">&times;</span>
+      <h2>Summary</h2>
+      <p>
+        Computer Science Enthusiast skilled in C++, Java, and Python with a
+        passion for solving complex problems and building real-world solutions.
+        Driven by innovation and a strong analytical mindset.
+      </p>
+    </div>
+
+    <div id="experience-panel" class="content-panel">
+      <span class="close-btn">&times;</span>
+      <h2>Work Experience</h2>
+      <div class="work-item">
+        <h3>AI and Full Stack Web Development Intern</h3>
+        <p>NXTSYNC Private Limited | 06/2024 - 08/2024</p>
+        <ul>
+          <li>
+            Worked on real-world projects involving Artificial Intelligence and
+            full-stack web development.
+          </li>
+          <li>
+            Gained hands-on experience in web technologies and basic machine
+            learning models.
+          </li>
+          <li>
+            Collaborated with mentors and team members to enhance software
+            development skills.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="technologies-panel" class="content-panel">
+      <span class="close-btn">&times;</span>
+      <h2>Technologies & Skills</h2>
+      <div class="tech-grid">
+        <div class="tech-item">Java</div>
+        <div class="tech-item">C++</div>
+        <div class="tech-item">Python</div>
+        <div class="tech-item">C</div>
+        <div class="tech-item">NumPy</div>
+        <div class="tech-item">Pandas</div>
+        <div class="tech-item">Git</div>
+        <div class="tech-item">Data Analysis</div>
+        <div class="tech-item">Machine Learning</div>
+        <div class="tech-item">Computer Vision</div>
+        <div class="tech-item">OOPS</div>
+        <div class="tech-item">Data Structures</div>
+        <div class="tech-item">MySQL</div>
+        <div class="tech-item">Figma</div>
+        <div class="tech-item">Blender 3D</div>
+      </div>
+    </div>
+
+    <div id="education-panel" class="content-panel">
+      <span class="close-btn">&times;</span>
+      <h2>Education</h2>
+      <h3>Chalapathi Institute of Engineering and Technology, Mothadaka</h3>
+      <p>B.Tech in Computer Science (2022-2026)</p>
+      <p>GPA: 7.18 / 10.0 (Up to the Fifth Semester)</p>
+    </div>
+
+    <div id="certificates-panel" class="content-panel">
+      <span class="close-btn">&times;</span>
+      <h2>Certificates</h2>
+      <ul>
+        <li>UiPath RPA Developer - Eduskills</li>
+        <li>Palo Alto Cybersecurity Fundamentals - Eduskills</li>
+        <li>AWS Data Engineering - Eduskills</li>
+        <li>Google AI and Machine Learning - Eduskills</li>
+      </ul>
+    </div>
+
+    <!-- Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="portfolio_3.js"></script>
+  </body>
+</html>
